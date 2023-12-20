@@ -35,5 +35,5 @@
 ## Github link to your effort in part 2 calling the rest endpoint and screen shot of the values you stored in your table
 
 ##PIC OF PROGRESS
-![GitHub Logo](https://github.com/egalawan/assignment_2_Fall2023/blob/main/assets/Screenshot%202023-12-20%20at%2012.16.23%E2%8)
+![GitHub Logo](https://github.com/egalawan/assignment_2_Fall2023/blob/main/assets/Screenshot 2023-12-20 at 12.16.23 AM.png)
 
