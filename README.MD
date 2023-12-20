@@ -30,6 +30,10 @@
 
 ### 4. I recommend sheet js for part 2.3 https://sheetjs.com/ up to you what ever tool you choose for the export
 
-# Submission
+## Submission
 
-# Github link to your effort in part 2 calling the rest endpoint and screen shot of the values you stored in your table
+## Github link to your effort in part 2 calling the rest endpoint and screen shot of the values you stored in your table
+
+##PIC OF PROGRESS
+![GitHub Logo](https://github.com/egalawan/assignment_2_Fall2023/blob/main/assets/Screenshot%202023-12-20%20at%2012.16.23%E2%8)
+
