@@ -51,10 +51,10 @@ function App() {
       <h1>Audio Processing App</h1>
       
       <div className="file-input-container">
-        <input type="file" onChange={handleFileChange} multiple />
+        <input className="file-input" type="file" onChange={handleFileChange} multiple />
         <button className="upload-btn" onClick={handleUpload}>Upload Files</button>
       </div>
-      <button onClick={handleExport}>Export to Excel</button>
+      <button className="export-btn" onClick={handleExport}>Export to Excel</button>
       {/* Table View */}
       <FileTable data={data} />
 

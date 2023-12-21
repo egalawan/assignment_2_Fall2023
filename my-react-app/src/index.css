@@ -38,25 +38,59 @@ code {
   text-align: center;
 }
 
+
+/* Choose Files Button CSS */
 .file-input-container {
-  margin: 20px 0;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px; /* Space between elements */
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
+.file-input {
+  padding: 10px;
+  border: 1px solid #210f0f;
+  border-radius: 4px;
+  background-color: #9d8616;
+  color: #c3bbbb;
+}
+
+
+/* 'Upload Files' button CSS */
 .upload-btn {
-  background-color: #4CAF50;
+  background-color: #0c720f; /* Green background */
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin-left: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* when hovering over the button */
+.upload-btn:hover {
+  background-color: #144816; /* Darker green on hover */
+}
+
+
+/* 'Export to Excel' button CSS */
+.export-btn {
+  background-color: #007bff; /* Blue color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
   margin-top: 10px;
 }
 
-.upload-btn:hover {
-  background-color: #45a049;
+.export-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
 }
+
 
 /* Table css */
 table {
