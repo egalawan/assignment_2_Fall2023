@@ -34,9 +34,6 @@
 
 ## Github link to your effort in part 2 calling the rest endpoint and screen shot of the values you stored in your table
 
-##PIC OF PROGRESS
-![alt text](https://github.com/egalawan/assignment_2_Fall2023/blob/main/assets/Screenshot 2023-12-20 at 12.16.23 AM.png)
-
 ## Instructions to opening Webpage:
 ### 1. 'cd tempo' to get into tempo folder
 ###     then run 'python3 app.py' or 'python app.py'
@@ -45,4 +42,4 @@
 ###     then run 'npm start' and the webpage will open up
 
 ## My Submission
-![alt text](https://github.com/egalawan/Comp584Assignment1/assets/FinalPhoto.png)
+![alt text](https://github.com/egalawan/assignment_2_Fall2023/blob/main/assets/FinalPhoto.png)
