@@ -19,6 +19,7 @@
     "peak_2": 92.0
 }
 ```
+postman example.png
 ![alt text](https://github.com/marvinh-csun/assignment_2_Fall2023/blob/main/postman%20example.png)
 ## Part 2
 
@@ -35,7 +36,7 @@
 ## Github link to your effort in part 2 calling the rest endpoint and screen shot of the values you stored in your table
 
 ##PIC OF PROGRESS
-![GitHub Logo](https://github.com/egalawan/assignment_2_Fall2023/blob/main/assets/Screenshot 2023-12-20 at 12.16.23 AM.png)
+![alt text](https://github.com/egalawan/assignment_2_Fall2023/blob/main/assets/Screenshot 2023-12-20 at 12.16.23 AM.png)
 
 ## Instructions to opening Webpage:
 ### 1. 'cd tempo' to get into tempo folder
@@ -43,3 +44,5 @@
 
 ### 2. open another terminal and 'cd my-react-app' to get into the folder
 ###     then run 'npm start' and the webpage will open up
+
+![Screenshot 2023-12-19 at 8 10 07 PM](https://github.com/egalawan/Comp584Assignment1/assets/Screenshot%202023-12-20%20at%206.33.34%20PM.png)
