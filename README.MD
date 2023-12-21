@@ -34,7 +34,14 @@
 
 ## Github link to your effort in part 2 calling the rest endpoint and screen shot of the values you stored in your table
 
+``` 
+Start Webpage
+'uvicorn app:app --reload' on the command line to start the webpage up.
+Running on 'http://127.0.0.1:8000'
+Display number not working properly.
+
 ```
+
 ## Instructions to opening Webpage:
 ### 1. 'cd tempo' to get into tempo folder
 ###     then run 'python3 app.py' or 'python app.py'
@@ -42,7 +49,7 @@
 ### 2. open another terminal and 'cd my-react-app' to get into the folder
 ###     then run 'npm start' and the webpage will open up
 
-```
+
 
 ## My Submission
 ![alt text](https://github.com/egalawan/assignment_2_Fall2023/blob/main/assets/FinalPhoto.png)
