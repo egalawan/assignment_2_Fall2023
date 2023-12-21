@@ -19,7 +19,6 @@
     "peak_2": 92.0
 }
 ```
-postman example.png
 ![alt text](https://github.com/marvinh-csun/assignment_2_Fall2023/blob/main/postman%20example.png)
 ## Part 2
 
@@ -45,4 +44,5 @@ postman example.png
 ### 2. open another terminal and 'cd my-react-app' to get into the folder
 ###     then run 'npm start' and the webpage will open up
 
-![Screenshot 2023-12-19 at 8 10 07 PM](https://github.com/egalawan/Comp584Assignment1/assets/Screenshot%202023-12-20%20at%206.33.34%20PM.png)
+## My Submission
+![alt text](https://github.com/egalawan/Comp584Assignment1/assets/FinalPhoto.png)
