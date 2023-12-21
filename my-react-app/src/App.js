@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 
 function App() {
   const [data, setData] = useState([]);
@@ -17,7 +17,7 @@ function App() {
       formData.append('my_audio_file', selectedFile);
 
       // Make the fetch request with the FormData
-      fetch('http://localhost:8086/api/file_tempo', {
+      fetch('http://localhost:5000/api/file_tempo', {
         method: 'POST',
         body: formData,
       })
@@ -33,10 +33,6 @@ function App() {
     }
   };
 
-  useEffect(() => {
-    // The useEffect hook runs once when the component mounts
-    // You can perform initial setup here if needed
-  }, []);
 
   return (
     <div className="App">

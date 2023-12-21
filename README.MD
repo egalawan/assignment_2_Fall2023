@@ -37,3 +37,9 @@
 ##PIC OF PROGRESS
 ![GitHub Logo](https://github.com/egalawan/assignment_2_Fall2023/blob/main/assets/Screenshot 2023-12-20 at 12.16.23 AM.png)
 
+## Instructions to opening Webpage:
+### 1. 'cd tempo' to get into tempo folder
+###     then run 'python3 app.py' or 'python app.py'
+
+### 2. open another terminal and 'cd my-react-app' to get into the folder
+###     then run 'npm start' and the webpage will open up
