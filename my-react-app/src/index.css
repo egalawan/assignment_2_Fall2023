@@ -19,6 +19,8 @@ code {
   text-align: center;
 }
 
+
+/* File Card CSS */
 .file-info-card {
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -54,4 +56,30 @@ code {
 
 .upload-btn:hover {
   background-color: #45a049;
+}
+
+/* Table css */
+table {
+  width: 100%;
+  max-width: 800px; /* Adjust this value as needed */
+  border-collapse: collapse;
+  margin: 20px auto; /* Top and bottom margin 20px, left and right auto */
+}
+
+th, td {
+  border: 1px solid #161111;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #c89367;
+}
+
+/* just to see individual files */
+tr:nth-child(even) {
+  background-color: #8ba5a0;
+}
+tr:nth-child(odd) {
+  background-color: #2e5a51;
 }

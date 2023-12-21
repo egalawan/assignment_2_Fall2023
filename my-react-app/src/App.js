@@ -1,4 +1,8 @@
 import React, { useState} from 'react';
+import './App.css';
+import './index.css';
+
+
 
 function App() {
   const [data, setData] = useState([]); // Array to store data for multiple files
@@ -46,6 +50,10 @@ function App() {
         <button className="upload-btn" onClick={handleUpload}>Upload Files</button>
       </div>
       
+      {/* Table View */}
+      <FileTable data={data} />
+
+      {/* Card View of each of the Files */}
       {data.map((fileData, index) => (
         <FileInfoCard key={index} data={fileData} />
       ))}
@@ -54,6 +62,7 @@ function App() {
   
 }
 
+// What the file will look like when they click upload
 function FileInfoCard({ data }) {
   return (
     <div className="file-info-card">
@@ -65,5 +74,35 @@ function FileInfoCard({ data }) {
     </div>
   );
 }
+
+
+// Table view
+function FileTable({ data }) {
+  if (!data || data.length === 0) return <p>No files uploaded yet.</p>;
+
+  return (
+    <table>
+      <thead>
+        <tr>
+          <th>File Name</th>
+          <th>Overall Tempo</th>
+          <th>Peak #1</th>
+          <th>Peak #2</th>
+        </tr>
+      </thead>
+      <tbody>
+        {data.map((file, index) => (
+          <tr key={index}>
+            <td>{file.filename}</td>
+            <td>{file.overall_tempo}</td>
+            <td>{file.peak_1}</td>
+            <td>{file.peak_2}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  );
+}
+
 
 export default App;
