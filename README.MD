@@ -34,12 +34,15 @@
 
 ## Github link to your effort in part 2 calling the rest endpoint and screen shot of the values you stored in your table
 
+```
 ## Instructions to opening Webpage:
 ### 1. 'cd tempo' to get into tempo folder
 ###     then run 'python3 app.py' or 'python app.py'
 
 ### 2. open another terminal and 'cd my-react-app' to get into the folder
 ###     then run 'npm start' and the webpage will open up
+
+```
 
 ## My Submission
 ![alt text](https://github.com/egalawan/assignment_2_Fall2023/blob/main/assets/FinalPhoto.png)
