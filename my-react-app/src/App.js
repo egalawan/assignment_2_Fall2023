@@ -1,7 +1,8 @@
-import React, { useState} from 'react';
 import './App.css';
 import './index.css';
 
+import React, { useState} from 'react';
+import * as XLSX from 'xlsx';
 
 
 function App() {
@@ -41,6 +42,10 @@ function App() {
     }
   };
 
+  const handleExport = () => {
+    exportToExcel(data, "file_data");
+  };
+
   return (
     <div className="App">
       <h1>Audio Processing App</h1>
@@ -49,7 +54,7 @@ function App() {
         <input type="file" onChange={handleFileChange} multiple />
         <button className="upload-btn" onClick={handleUpload}>Upload Files</button>
       </div>
-      
+      <button onClick={handleExport}>Export to Excel</button>
       {/* Table View */}
       <FileTable data={data} />
 
@@ -74,7 +79,6 @@ function FileInfoCard({ data }) {
     </div>
   );
 }
-
 
 // Table view
 function FileTable({ data }) {
@@ -104,5 +108,14 @@ function FileTable({ data }) {
   );
 }
 
+// Adding the Excel
+function exportToExcel(data, fileName) {
+  const ws = XLSX.utils.json_to_sheet(data);
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, "Sheet1");
+
+  // Write the workbook to a file
+  XLSX.writeFile(wb, `${fileName}.xlsx`);
+}
 
 export default App;
